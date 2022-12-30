@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "kirafont"; /* Project id 3846301 */
+  /* Color fonts */
+  src: 
+       url('iconfont.woff2?t=1672412511322') format('woff2'),
+       url('iconfont.woff?t=1672412511322') format('woff'),
+       url('iconfont.ttf?t=1672412511322') format('truetype');
+}
+
+.kirafont {
+  font-family: "kirafont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouye:before {
+  content: "\e751";
+}
+
+.icon-web__guanyuwomen:before {
+  content: "\e63c";
+}
+
+.icon-guidangrenwu:before {
+  content: "\e64c";
+}
+
+.icon-youxiang:before {
+  content: "\e70c";
+}
+
+.icon-zhihu-circle-fill:before {
+  content: "\ea8b";
+}
+
